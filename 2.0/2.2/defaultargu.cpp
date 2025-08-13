@@ -7,7 +7,7 @@ using namespace std;
 
 void AOC(float r = 3.6);
 void AOR(int l = 5, int b = 6);
-void AOS(int l = 5);
+void AOS(int s = 5);
 int main() {
     AOC();
     AOR();
@@ -22,6 +22,6 @@ void AOR(int l, int b) {
     cout << l * b << endl;
 }
 
-void AOS(int l = 5) {
-    cout << l * l;
+void AOS(int s) {
+    cout << s * s;
 }

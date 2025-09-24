@@ -15,8 +15,8 @@ class Election {
     void Vote() {
         cout << "Enter number of ballots: ";
         cin >> Ballot;
+        cout << "Vote for candidate (1-5): ";
         for (int i = 0; i < Ballot; i++) {
-            cout << "Vote for candidate (1-5): ";
             cin >> n;
             if (n >= 1 && n <= 5) {
                 this->Candidate[n - 1]++;
